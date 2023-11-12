@@ -65,7 +65,7 @@ h1{
     font-size: var(--title-font-size);
 }
 
-@media only screen and (width < 767px){
+@media only screen and (width < 640px){
     h1{
         font-size: 3rem;
     }
@@ -83,7 +83,7 @@ h2{
     margin-top: 25px;
 }
 
-@media only screen and (width < 757px){
+@media only screen and (width < 640px){
     h2 {
         font-size: 1.2rem;
     }
@@ -103,7 +103,7 @@ h2{
     border-radius: 15px;    
 }
 
-@media only screen and (width < 767px){
+@media only screen and (width < 640px){
     .main__form{
         width: 90vw;
     }
@@ -116,7 +116,7 @@ h2{
     justify-content: space-between;
 }
 
-@media only screen and (width < 767px) {
+@media only screen and (width < 640px) {
     .form__element{
         display: block;
     }
@@ -127,7 +127,7 @@ fieldset{
     border: 0;
 }
 
-@media only screen and (width < 767px) {
+@media only screen and (width < 640px) {
     fieldset{
         width: 100%;
     }
